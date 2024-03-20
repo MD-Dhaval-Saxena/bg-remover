@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BG remover</title>
+    <link rel="stylesheet" href="../output" type="text/css">
+    <link href="dist/output.css" rel="stylesheet" type="text/css">
+  </head>
+  <body className="bg-red-600">
+    <h1 className="bg-cyan-900 text-center"> Choose image</h1>
+    <form action="/" id="myform" method="post" enctype="multipart/form-data">
+      <input type="file" name="image" id="image" />
+      <img id="previewImg" />
+      <button type="submit">Convert</button>
+    </form>
+  </body>
+</html>
